@@ -12,7 +12,6 @@ btn.addEventListener('click', () => {
     square.style.backgroundColor = text.value
     text.value = ''
 })
-//! 75%
 e_btn.style.display = 'none'
 span.textContent = '50 %'
 range.addEventListener('input', (event) => {
@@ -21,22 +20,3 @@ range.addEventListener('input', (event) => {
     circle.style.width = `${event.target.value}%`
 
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-console.log(text);
